@@ -1,0 +1,57 @@
+body
+{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; /* Set a minimum height to allow other content to be displayed */
+}
+
+
+
+.yes_btn {
+    height: 50px;
+    width: 100px;
+    background-color: #B7E5B4;
+    border: none;
+    border-radius: 10px;
+    color: azure;
+    position: absolute;
+    left: 40vw
+}
+
+#no_btn {
+    height: 50px;
+    width: 100px;
+    background-color: #F28585;
+    border: none;
+    border-radius: 10px;
+    color: azure;
+    position: absolute;
+    right: 40vw;
+}
+
+.center_yes {
+    height: 50px;
+    width: 100px;
+    background-color: #B7E5B4;
+    border: none;
+    border-radius: 10px;
+    color: azure;
+    position:absolute;
+    left: 47vw;
+}
+
