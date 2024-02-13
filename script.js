@@ -38,8 +38,8 @@ async function yesPressed () {
 no_btn.addEventListener('mouseover', function() {
     no_btn.style.position = 'absolute'
 
-    no_btn.style.top = Math.floor(Math.random() * (800 - 100 + 1)) + 100 + 'px'
-    no_btn.style.left = Math.floor(Math.random() * (1500 - 100 + 1)) + 100 + 'px'
+    no_btn.style.top = Math.floor(Math.random() * (600 - 100 + 1)) + 100 + 'px'
+    no_btn.style.left = Math.floor(Math.random() * (1000 - 100 + 1)) + 100 + 'px'
 
     count += 1
     if (count === 2) {
